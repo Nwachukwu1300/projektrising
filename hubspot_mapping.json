@@ -1,0 +1,8 @@
+{
+  "contacts": {
+    "list": {
+      "http_method": "GET",
+      "path": "/crm/v3/objects/contacts"
+    }
+  }
+}

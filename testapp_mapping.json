@@ -1,0 +1,22 @@
+{
+  "contacts": {
+    "list": {
+      "http_method": "GET",
+      "path": "/api/v1/contacts"
+    },
+    "get": {
+      "http_method": "GET",
+      "path": "/api/v1/contacts/{id}"
+    },
+    "create": {
+      "http_method": "POST",
+      "path": "/api/v1/contacts"
+    }
+  },
+  "deals": {
+    "list": {
+      "http_method": "GET",
+      "path": "/api/v1/deals"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "product_id": "testapp",
+    "entity_name": "contacts",
+    "action": "list",
+    "http_method": "GET",
+    "path": "/api/v1/contacts"
+  },
+  {
+    "product_id": "testapp",
+    "entity_name": "contacts",
+    "action": "list",
+    "http_method": "POST",
+    "path": "/api/v1/contacts/search"
+  },
+  {
+    "product_id": "testapp",
+    "entity_name": "contacts",
+    "action": "get",
+    "http_method": "GET",
+    "path": "/api/v1/contacts/{id}"
+  },
+  {
+    "product_id": "testapp",
+    "entity_name": "contacts",
+    "action": "create",
+    "http_method": "POST",
+    "path": "/api/v1/contacts"
+  },
+  {
+    "product_id": "testapp",
+    "entity_name": "deals",
+    "action": "list",
+    "http_method": "GET",
+    "path": "/api/v1/deals"
+  }
+]

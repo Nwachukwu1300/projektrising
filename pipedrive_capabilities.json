@@ -1,0 +1,608 @@
+{
+  "product_id": "pipedrive",
+  "total_capabilities": 86,
+  "capabilities": [
+    {
+      "entity_name": "activities",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/activities",
+      "score": null
+    },
+    {
+      "entity_name": "activities",
+      "action": "create",
+      "http_method": "POST",
+      "path": "/activities",
+      "score": null
+    },
+    {
+      "entity_name": "activities",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/activities/collection",
+      "score": null
+    },
+    {
+      "entity_name": "activities",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/activities/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "activities",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/activities/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "activities",
+      "action": "update",
+      "http_method": "PUT",
+      "path": "/activities/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/deals",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "create",
+      "http_method": "POST",
+      "path": "/deals",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/deals/archived",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/deals/collection",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/deals/search",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/deals/summary",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/deals/summary/archived",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/deals/timeline",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/deals/timeline/archived",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/deals/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "update",
+      "http_method": "PUT",
+      "path": "/deals/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/activities",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/changelog",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/files",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/flow",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/participantsChangelog",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/followers",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/deals/{id}/followers/{follower_id}",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/mailMessages",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "update",
+      "http_method": "PUT",
+      "path": "/deals/{id}/merge",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/participants",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/deals/{id}/participants/{deal_participant_id}",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/permittedUsers",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/persons",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/deals/{id}/products",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "update",
+      "http_method": "PUT",
+      "path": "/deals/{id}/products/{product_attachment_id}",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/deals/{id}/products/{product_attachment_id}",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/organizations",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "create",
+      "http_method": "POST",
+      "path": "/organizations",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/organizations/collection",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/organizations/search",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/organizations/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/organizations/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "update",
+      "http_method": "PUT",
+      "path": "/organizations/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/organizations/{id}/activities",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/organizations/{id}/changelog",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/organizations/{id}/deals",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/organizations/{id}/files",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/organizations/{id}/flow",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/organizations/{id}/followers",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/organizations/{id}/followers/{follower_id}",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/organizations/{id}/mailMessages",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "update",
+      "http_method": "PUT",
+      "path": "/organizations/{id}/merge",
+      "score": null
+    },
+    {
+      "entity_name": "organisations",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/organizations/{id}/permittedUsers",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/organizations/{id}/persons",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/persons",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "create",
+      "http_method": "POST",
+      "path": "/persons",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/persons/collection",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/persons/search",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/persons/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/persons/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "update",
+      "http_method": "PUT",
+      "path": "/persons/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/persons/{id}/activities",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/persons/{id}/changelog",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/persons/{id}/deals",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/persons/{id}/files",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/persons/{id}/flow",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/persons/{id}/followers",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/persons/{id}/followers/{follower_id}",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/persons/{id}/mailMessages",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "update",
+      "http_method": "PUT",
+      "path": "/persons/{id}/merge",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/persons/{id}/permittedUsers",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/persons/{id}/picture",
+      "score": null
+    },
+    {
+      "entity_name": "contacts",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/persons/{id}/products",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/pipelines/{id}/deals",
+      "score": null
+    },
+    {
+      "entity_name": "products",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/products",
+      "score": null
+    },
+    {
+      "entity_name": "products",
+      "action": "create",
+      "http_method": "POST",
+      "path": "/products",
+      "score": null
+    },
+    {
+      "entity_name": "products",
+      "action": "list",
+      "http_method": "GET",
+      "path": "/products/search",
+      "score": null
+    },
+    {
+      "entity_name": "products",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/products/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "products",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/products/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "products",
+      "action": "update",
+      "http_method": "PUT",
+      "path": "/products/{id}",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/products/{id}/deals",
+      "score": null
+    },
+    {
+      "entity_name": "products",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/products/{id}/files",
+      "score": null
+    },
+    {
+      "entity_name": "products",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/products/{id}/followers",
+      "score": null
+    },
+    {
+      "entity_name": "products",
+      "action": "delete",
+      "http_method": "DELETE",
+      "path": "/products/{id}/followers/{follower_id}",
+      "score": null
+    },
+    {
+      "entity_name": "products",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/products/{id}/permittedUsers",
+      "score": null
+    },
+    {
+      "entity_name": "activities",
+      "action": "update",
+      "http_method": "PUT",
+      "path": "/projects/{id}/plan/activities/{activityId}",
+      "score": null
+    },
+    {
+      "entity_name": "activities",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/projects/{id}/activities",
+      "score": null
+    },
+    {
+      "entity_name": "deals",
+      "action": "get",
+      "http_method": "GET",
+      "path": "/stages/{id}/deals",
+      "score": null
+    }
+  ]
+}

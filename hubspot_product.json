@@ -1,0 +1,11 @@
+{
+  "product_id": "hubspot",
+  "name": "HubSpot CRM",
+  "type": "crm",
+  "api_base_url": "https://api.hubapi.com",
+  "auth_method": "oauth2",
+  "auth_metadata": {
+    "token_url": "",
+    "scopes": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "product_id": "testcrm",
+  "name": "Test CRM",
+  "type": "crm",
+  "api_base_url": "https://api.test.com",
+  "auth_method": "api_key",
+  "auth_metadata": {
+    "api_key_header": "Authorization",
+    "api_key_prefix": "Bearer "
+  }
+}

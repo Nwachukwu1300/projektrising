@@ -1,0 +1,11 @@
+{
+  "product_id": "pipedrive",
+  "name": "Pipedrive CRM",
+  "type": "crm",
+  "api_base_url": "https://api.pipedrive.com/v1",
+  "auth_method": "api_key",
+  "auth_metadata": {
+    "api_key_header": "Authorization",
+    "api_key_prefix": "Bearer "
+  }
+}

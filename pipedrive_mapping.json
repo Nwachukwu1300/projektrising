@@ -1,0 +1,112 @@
+{
+  "activities": {
+    "list": {
+      "http_method": "GET",
+      "path": "/activities"
+    },
+    "create": {
+      "http_method": "POST",
+      "path": "/activities"
+    },
+    "delete": {
+      "http_method": "DELETE",
+      "path": "/activities/{id}"
+    },
+    "get": {
+      "http_method": "GET",
+      "path": "/activities/{id}"
+    },
+    "update": {
+      "http_method": "PUT",
+      "path": "/activities/{id}"
+    }
+  },
+  "deals": {
+    "list": {
+      "http_method": "GET",
+      "path": "/deals"
+    },
+    "create": {
+      "http_method": "POST",
+      "path": "/deals"
+    },
+    "delete": {
+      "http_method": "DELETE",
+      "path": "/deals/{id}"
+    },
+    "get": {
+      "http_method": "GET",
+      "path": "/deals/{id}"
+    },
+    "update": {
+      "http_method": "PUT",
+      "path": "/deals/{id}"
+    }
+  },
+  "contacts": {
+    "get": {
+      "http_method": "GET",
+      "path": "/persons/{id}"
+    },
+    "list": {
+      "http_method": "GET",
+      "path": "/persons"
+    },
+    "create": {
+      "http_method": "POST",
+      "path": "/persons"
+    },
+    "delete": {
+      "http_method": "DELETE",
+      "path": "/persons/{id}"
+    },
+    "update": {
+      "http_method": "PUT",
+      "path": "/persons/{id}"
+    }
+  },
+  "organisations": {
+    "list": {
+      "http_method": "GET",
+      "path": "/organizations"
+    },
+    "create": {
+      "http_method": "POST",
+      "path": "/organizations"
+    },
+    "delete": {
+      "http_method": "DELETE",
+      "path": "/organizations/{id}"
+    },
+    "get": {
+      "http_method": "GET",
+      "path": "/organizations/{id}"
+    },
+    "update": {
+      "http_method": "PUT",
+      "path": "/organizations/{id}"
+    }
+  },
+  "products": {
+    "list": {
+      "http_method": "GET",
+      "path": "/products"
+    },
+    "create": {
+      "http_method": "POST",
+      "path": "/products"
+    },
+    "delete": {
+      "http_method": "DELETE",
+      "path": "/products/{id}"
+    },
+    "get": {
+      "http_method": "GET",
+      "path": "/products/{id}"
+    },
+    "update": {
+      "http_method": "PUT",
+      "path": "/products/{id}"
+    }
+  }
+}

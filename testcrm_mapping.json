@@ -1,0 +1,12 @@
+{
+  "contacts": {
+    "list": {
+      "http_method": "GET",
+      "path": "/api/contacts"
+    },
+    "get": {
+      "http_method": "GET",
+      "path": "/api/contacts/{id}"
+    }
+  }
+}
