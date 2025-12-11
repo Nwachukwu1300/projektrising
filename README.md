@@ -1002,20 +1002,4 @@ pip install -e ".[dev]"
 - **Well-Tested** - 146 tests with mocks
 - **Real-World Proven** - Successfully tested with live Pipedrive API
 
-## Documentation
 
-- **[README.md](README.md)** - This file (usage guide)
-- **[design_note.md](design_note.md)** - Architecture, patterns, how to extend
-- **[ALTERNATIVE_CRMS.md](ALTERNATIVE_CRMS.md)** - CRM comparison and alternatives
-
-## Support
-
-For questions or issues:
-1. Check this README for usage examples
-2. See [design_note.md](design_note.md) for architecture details
-3. Review test files in `tests/` for code examples
-4. Check [ALTERNATIVE_CRMS.md](ALTERNATIVE_CRMS.md) for CRM-specific help
-
-## License
-
-This is an evaluation exercise project.
